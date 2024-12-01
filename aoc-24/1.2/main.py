@@ -48,8 +48,8 @@ def calculate_simularity(primary, secondary):
             if(found):
                 break
         simularity += current*count
-    print(simularity)
     return simularity
                 
 if __name__ == "__main__":
-    result = main()    
+    result = main()  
+    print(result)  
